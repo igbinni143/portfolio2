@@ -1,0 +1,8 @@
+#information {
+    display: flex;
+    flex-direction: column;
+}
+#information .photo {
+    width: 2px;
+    height:2px;
+}
