@@ -1,0 +1,54 @@
+.community-container {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
+
+.community-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.community-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-right: 10px;
+  width: 100px; /* 레이블의 고정 너비 */
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1; /* 남은 공간을 채우도록 설정 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.community-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.community-container button:hover {
+  background-color: #0056b3;
+}

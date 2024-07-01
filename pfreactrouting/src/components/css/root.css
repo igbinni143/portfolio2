@@ -1,0 +1,38 @@
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    background-color: #06c77a;;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-left:3cqmin;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+}
+li {
+    font-size: 20px;
+    padding-right: 50px;
+    overflow: auto;
+}
+a:link { 
+    text-decoration: none; 
+} 
+a {
+    padding-top: 9px;
+    color: black;
+    font-weight: 700;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+}
+.loginpart {
+    display: flex;
+    right: 0;
+    font-size: 20px;
+    margin-left:1280px;
+    padding-bottom: 12px;
+}
